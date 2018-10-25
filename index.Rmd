@@ -1084,3 +1084,24 @@ Pour une réussite comme Netflix, il faut (notamment !) :
 - pas mal d'infrastructure technique (mais externalisée chez Amazon)
 - beaucoup, beaucoup de données
 - l'audace stratégique de changer de métier (distributeur => producteur)
+
+---
+class: inverse, center, middle
+
+# Mais encore...
+
+---
+## Au musée 
+
+Analyse de http://www.club-innovation-culture.fr/expo-met-inout-oeuvres-new-york-reseau-mediatheques-agglomeration-herault/
+
+http://www.culture.gouv.fr/Thematiques/Musees/Nos-actions/Colloques-Journees-d-etudes/Journee-professionnelle-La-strategie-numerique-dans-les-musees?fbclid=IwAR3YE2i0CXpVqHUekF9eKO8TzbmPZJPUvd2lMi7Q6jqyN2jVY3QNCVZGB3I
+
+https://www.lemonde.fr/idees/article/2018/06/23/open-acess-les-musees-francais-a-la-traine_5320170_3232.html
+
+---
+## Dans la musique
+
+https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+
+
