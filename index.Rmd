@@ -2,7 +2,7 @@
 title: "Culture des données, données de la culture"
 subtitle: ""
 author: "Joël Gombin, Datactivist"
-date: "2018-2019"
+date: "2019-2020"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
