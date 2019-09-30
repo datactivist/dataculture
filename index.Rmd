@@ -54,7 +54,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ![](https://www.dropbox.com/s/kicm8kmqal303yc/equipe.jpg?dl=1)
 
 ---
-## Qui sommes nous ?
+## Qui sommes-nous ?
 
 - Datactivist est un .red[**pure player de l’open data**] créé en 2016, par Samuel Goëta et Joël Gombin.
 
@@ -87,15 +87,7 @@ La médiation de données est aussi fondamentalement une animation de communaut�
 
 **Session 1** : culture des données. Data, big data, open data…
 
-**Session 2** : culture des données. Des données aux contenus culturels
-
-**Session 3** : les données de la culture - les modèles d’affaire 
-
-**Session 4** : les données de la culture – sources et diffusion
-
-**Session 5** : les données de la culture – les réutilisations
-
-**Session 6** : les données de la culture – retours d’expérience de projets
+**Session 2** : les données de la culture - études de cas
 
 ---
 class: inverse, center, middle
@@ -308,7 +300,7 @@ Différents types de variables :
 - ordinale : échelle de mesure dotant chaque élément d'une valeur qui permet leur classement par ordre de grandeur (faible, moyen, fort)
 
 
-- intervalles : l’intervalle entre deux catégories àatoujours la même valeur (12-16°C / 16-20°C / 20-24°C) 
+- intervalles : l’intervalle entre deux catégories a toujours la même valeur (12-16°C / 16-20°C / 20-24°C) 
 ]
 .pull-right[
 ![](img/spread.png)
@@ -374,13 +366,14 @@ Possible de trier, ordonner et structurer les données
 ## Données non structurées
 
 .pull-left[Pas de structure commune identifiable
+
 Exemple : BDD NoSQL
 
 Généralement qualitatives
 
 Difficilement combinées ou analysées quantitativement
 
-Les données non structurées croitraient 15x plus que les données structurées
+Les données non structurées croîtraient 15x plus que les données structurées
  
 Machine learning de + en + capable d'analyser ces données.]
 
@@ -565,52 +558,18 @@ class:middle, center
 ]
 
 ---
-## Exemple de données ouvertes: la base SIRENE
 
-.center[.reduite2[![](img/sirene.png)]]
+### Que signifie .red[“Open”] dans un contexte culturel ?
 
----
+* **L’Open Content** (les contenus ouverts) est la mise à disposition gratuite sur Internet des reproductions numériques des œuvres sous une licence garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
 
-## La base SIRENE : exemple de cas d'utilisation
+* **L’Open Access** (le libre accès) est la mise à disposition gratuite en ligne de contenus numériques, sous licences libres (Creative commons, etc.) ou non.
 
-.reduite[.center[![](img/ruesoif.png)]]
----
-##Exemple de données ouvertes : la base adresses
-.reduite[.center[![](img/ban.png)]]
+* **L’Open Knowledge** (la culture libre) est un mouvement social qui promeut la liberté de distribuer et de modifier des œuvres de l’esprit sous la forme d’œuvres libres. Il puise sa philosophie dans celle du logiciel libre en l’appliquant à la culture et à l’information.
+
+* **L’Open Data** (les données ouvertes), est la mise à disposition gratuite sur Internet de données sous une licence libre. Diverses exceptions peuvent y faire obstacle, dont des .red[droits de propriété intellectuelle détenus par des tiers].
 
 ---
-##Exemple de données ouvertes : les accidents de la route
-.reduite[.center[![](img/accidents.png)]]
-
----
-
-## Les accidents de la route
-.reduite2[.center[![](img/trajetleplussur.png)]]
-.footnote[Plus d'accidents sur l'A8 mais surtout plus de véhicules…]
-
----
-
-## Les accidents de la route
-
-.reduite2[.center[![](img/marsactu.png)]]
-.footnote[[Carte par Joël Gombin dans Marsactu](https://joelgombin.github.io/marsactu_accidents/chronique.html)]
-
----
-
-## Exemple de données ouvertes : les inspections des restaurants
-
-.reduite2[.center[![](img/aliminfos.png)]]
-.footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
-
----
-
-## Les inspections des restaurants
-
-.reduite2[.center[![](img/resto.png)]]
-.footnote[[26 établissements au niveau d'hygiène à corriger de manière urgent ](https://dgal.opendatasoft.com/explore/embed/dataset/export_alimconfiance/map/?disjunctive.app_libelle_activite_etablissement&disjunctive.filtre&refine.synthese_eval_sanit=A%20corriger%20de%20mani%C3%A8re%20urgente&location=6,47.24195,5.00977&static=false&datasetcard=true)]
-
----
-
 ## Big data
 
 ![](https://www.usine-digitale.fr/mediatheque/0/3/5/000351530/big-data.jpg)
@@ -659,14 +618,16 @@ Kitchin (2014) résume les promesses du big data :
 
 - sémantique / web des données
 - RDF / SPARQL
-- wikidata => http://projetjourdain.org/network/index.html]
+- wikidata => http://projetjourdain.org/network/index.html
+]
 
 .pull-right[
 ![](http://linkeddata.org/static/images/lod-datasets_2009-07-14_cropped.png)
+]
 
 ---
 class: middle
-[![](img/histro.png)](http://histropedia.com/timeline/3jrttpg9bg0t/Google)
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%20%3Fcocktail%20%3FcocktailLabel%20(SAMPLE(%3Frecipe)%20AS%20%3Frecipe)%20(SAMPLE(%3Fimage)%20AS%20%3Fimage)%0AWHERE%0A%7B%0A%20%20%7B%0A%20%20%20%20SELECT%20%3Fcocktail%20%3FcocktailLabel%20(GROUP_CONCAT(DISTINCT%20%3Fingredient%3B%20separator%3D%22%2C%20%22)%20AS%20%3FingredientsList)%20(GROUP_CONCAT(DISTINCT%20%3FgarnishLabel%3B%20separator%3D%22%2C%20%22)%20AS%20%3FgarnishList)%20(COUNT(DISTINCT%20%3Fingredient)%20%2B%20COUNT(DISTINCT%20%3FgarnishLabel)%20AS%20%3Fcount)%0A%20%20%20%20WHERE%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%3Fcocktail%20wdt%3AP31%2Fwdt%3AP279*%20wd%3AQ134768%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20p%3AP186%20%3FmaterialStat.%0A%20%20%20%20%20%20MINUS%20%7B%20%3FmaterialStat%20pq%3AP518%2Fwdt%3AP279*%20wd%3AQ2453629.%20%7D%0A%20%20%20%20%20%20MINUS%20%7B%20%3FmaterialStat%20ps%3AP186%20wd%3AQ488463%3B%20pq%3AP366%20wd%3AQ26876981.%20%7D%0A%20%20%20%20%20%20MINUS%20%7B%20%3FmaterialStat%20pq%3AP366%20wd%3AQ59541.%20%7D%0A%20%20%20%20%20%20%3FmaterialStat%20ps%3AP186%2Frdfs%3Alabel%20%3FmaterialLabel.%0A%20%20%20%20%20%20FILTER(LANG(%3FmaterialLabel)%20%3D%20%22en%22).%0A%20%20%20%20%20%20BIND(%3FmaterialLabel%20AS%20%3FingredientSolo).%0A%20%20%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%3FmaterialStat%20ps%3AP186%2Frdfs%3Alabel%20%3FmaterialLabel%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20pq%3AP1114%20%3Fquantity.%0A%20%20%20%20%20%20%20%20FILTER(LANG(%3FmaterialLabel)%20%3D%20%22en%22).%0A%20%20%20%20%20%20%20%20BIND(CONCAT(STR(%3Fquantity)%2C%20%22%20%22%2C%20%3FmaterialLabel)%20AS%20%3FingredientWithQuantity).%0A%20%20%20%20%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%20%20%3FmaterialStat%20pq%3AP1114%20%3Fquantity%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20ps%3AP186%2Frdfs%3Alabel%20%3FmaterialLabel%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20pqv%3AP1114%2Fwikibase%3AquantityUnit%20%3Funit.%0A%20%20%20%20%20%20%20%20%20%20FILTER(LANG(%3FmaterialLabel)%20%3D%20%22en%22).%0A%20%20%20%20%20%20%20%20%20%20FILTER(%3Funit%20!%3D%20wd%3AQ199).%0A%20%20%20%20%20%20%20%20%20%20%3Funit%20rdfs%3Alabel%20%3FunitLabel.%0A%20%20%20%20%20%20%20%20%20%20FILTER(LANG(%3FunitLabel)%20%3D%20%22en%22).%0A%20%20%20%20%20%20%20%20%20%20BIND(CONCAT(STR(%3Fquantity)%2C%20%22%20%22%2C%20IF(%3Fquantity%20%3D%201%2C%20%3FunitLabel%2C%20CONCAT(%3FunitLabel%2C%20IF(STRENDS(%3FunitLabel%2C%20%22sh%22)%2C%20%22es%22%2C%20%22s%22)))%2C%20%22%20%22%2C%20%3FmaterialLabel)%20AS%20%3FingredientWithUnit).%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20BIND(COALESCE(%3FingredientWithUnit%2C%20%3FingredientWithQuantity%2C%20%3FingredientSolo)%20AS%20%3Fingredient).%0A%20%20%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%3Fcocktail%20p%3AP186%20%5B%20ps%3AP186%20%3Fgarnish%3B%20pq%3AP366%20wd%3AQ59541%20%5D.%0A%20%20%20%20%20%20%20%20%3Fgarnish%20rdfs%3Alabel%20%3FgarnishLabel.%0A%20%20%20%20%20%20%20%20FILTER(LANG(%3FgarnishLabel)%20%3D%20%22en%22).%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%3Fcocktail%20rdfs%3Alabel%20%3FcocktailLabel.%0A%20%20%20%20%20%20FILTER(LANG(%3FcocktailLabel)%20%3D%20%22en%22).%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fcocktail%20%3FcocktailLabel%0A%20%20%7D%0A%20%20BIND(%0A%20%20%20%20IF(REGEX(%3FingredientsList%2C%20%22%2C%20.*%2C%22)%2C%0A%20%20%20%20%20%20%20REPLACE(%3FingredientsList%2C%20%22(.*)%2C%20(.*)%22%2C%20%22%241%2C%20and%20%242%22)%2C%0A%20%20%20%20%20%20%20REPLACE(%3FingredientsList%2C%20%22(.*)%2C%20(.*)%22%2C%20%22%241%20and%20%242%22))%0A%20%20%20%20AS%20%3Fingredients).%0A%20%20BIND(%0A%20%20%20%20IF(REGEX(%3FgarnishList%2C%20%22%2C%20.*%2C%22)%2C%0A%20%20%20%20%20%20%20REPLACE(%3FgarnishList%2C%20%22(.*)%2C%20(.*)%22%2C%20%22%241%2C%20and%20%242%22)%2C%0A%20%20%20%20%20%20%20REPLACE(%3FgarnishList%2C%20%22(.*)%2C%20(.*)%22%2C%20%22%241%20and%20%242%22))%0A%20%20%20%20AS%20%3Fgarnishes).%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fcocktail%20p%3AP186%20%5B%20ps%3AP186%20%3Fglass%3B%20pq%3AP518%2Fwdt%3AP279*%20wd%3AQ2453629%20%5D.%0A%20%20%20%20%3Fglass%20rdfs%3Alabel%20%3FglassLabel.%0A%20%20%20%20FILTER(LANG(%3FglassLabel)%20%3D%20%22en%22).%0A%20%20%20%20BIND(IF(REGEX(%3FglassLabel%2C%20%22%5E%5BAEIOUaeiou%5D%22)%2C%20%22an%22%2C%20%22a%22)%20AS%20%3Farticle).%0A%20%20%20%20BIND(CONCAT(%22%20in%20%22%2C%20%3Farticle%2C%20%22%20%22%2C%20%3FglassLabel)%20AS%20%3Fcontainer).%0A%20%20%20%20BIND(%22%2C%20served%22%20AS%20%3Fserved).%0A%20%20%7D%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fcocktail%20p%3AP186%20%5B%20ps%3AP186%20wd%3AQ488463%3B%20pq%3AP366%20wd%3AQ26876981%20%5D.%0A%20%20%20%20BIND(%22%20on%20the%20rocks%22%20AS%20%3FonTheRocks).%0A%20%20%20%20BIND(%22%2C%20served%22%20AS%20%3Fserved).%0A%20%20%7D%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20FILTER(STRLEN(STR(%3Fgarnishes))%20%3E%201).%0A%20%20%20%20BIND(CONCAT(%22%20with%20%22%2C%20%3Fgarnishes)%20AS%20%3Fgarnish).%0A%20%20%20%20BIND(%22%2C%20served%22%20AS%20%3Fserved).%0A%20%20%7D%0A%20%20BIND(CONCAT(%0A%20%20%20%20%3Fingredients%2C%0A%20%20%20%20COALESCE(%3Fserved%2C%20%22%22)%2C%0A%20%20%20%20COALESCE(%3FonTheRocks%2C%20%22%22)%2C%0A%20%20%20%20COALESCE(%3Fgarnish%2C%20%22%22)%2C%0A%20%20%20%20COALESCE(%3Fcontainer%2C%20%22%22))%0A%20%20%20%20AS%20%3Frecipe).%0A%20%20OPTIONAL%20%7B%20%3Fcocktail%20wdt%3AP18%20%3Fimage.%20%7D%0A%7D%0AGROUP%20BY%20%3Fcocktail%20%3FcocktailLabel%0AORDER%20BY%20DESC(MAX(%3Fcount))" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 ---
 
@@ -679,12 +640,15 @@ class: middle
 
 - donnée dynamique => ouverture potentiellement limitée et contrôlée 
 
-- un exemple : [overpass turbo](https://overpass-turbo.eu/)]
+- un exemple : [The Movie DataBase](https://www.themoviedb.org/documentation/api)
+]
 .pull-right[
 ![](https://d1avok0lzls2w.cloudfront.net/img_uploads/apis-for-marketers.png)
 ]
+
 ---
 class:inverse, middle, center
+
 # Cadre juridique et protection de la vie privée
 
 ### Focus sur le RGPD
@@ -769,15 +733,14 @@ Le RGPD propose un **cadre unifié pour l'ensemble de l'UE** qui s'applique à c
 
 ## Responsabiliser les acteurs
 
-.pull-left[
 - **Privacy by design** : protection des données personnelles dès la conception du produit et par défaut
+
 - **Minimisation** : limiter la quantité de données personnelles dès le départ
+
 - **Accountability** : mettre en place des mesures de protection des données et démontrer cette conformité à tout moment
+
 - Fin des obligations déclaratives sauf si risque accru pour la vie privée
-]
-.pull-right[
-![](https://www.genious-interactive.com/wp-content/uploads/2017/08/protection-donnees-9-mois-pour-etre-conforme-RGPD.png)
-]
+
 
 
 ---
@@ -785,7 +748,7 @@ Le RGPD propose un **cadre unifié pour l'ensemble de l'UE** qui s'applique à c
 ## Les 6 étapes de la mise en conformité
 
 .pull-left[
-![](https://www.cnil.fr/sites/default/files/styles/contenu-generique-visuel/public/thumbnails/image/rgpd-etape6.png)
+![](./img/rgpd-etape6.png)
 
 ℹ DPO obligatoire uniquement pour secteur public et entreprises dont le traitement de données sensibles à grande échelle est une activité principale. 
 ]
@@ -801,19 +764,11 @@ Le RGPD propose un **cadre unifié pour l'ensemble de l'UE** qui s'applique à c
 
 ## Les 6 étapes de la mise en conformité
 
-.pull-left[
 4.**Gérer les risques** : Si identification de risques élevés, mener pour chaque traitement concerné une analyse d'impact sur la protection des données (PIA). 
 
 5.**S'organiser** : mise en place de procédures pour l’ensemble des événements qui peuvent survenir au cours de la vie d’un traitement (ex : faille de sécurité, demande de rectification, changement de prestataire…)
 
 6.**Documenter** :  prouver votre conformité au règlement, constituer et regrouper la documentation nécessaire qui doit être réexaminée régulièrement.  
-]
-
-.pull-right[
-
-![](https://www.cnil.fr/sites/default/files/styles/contenu-generique-visuel/public/thumbnails/image/rgpd-etape6.png)
-
-]
 
 ---
 
@@ -821,7 +776,7 @@ Le RGPD propose un **cadre unifié pour l'ensemble de l'UE** qui s'applique à c
 
 ⚖️ Les autorités de protection peuvent notamment : limiter temporairement ou définitivement un traitement, suspendre les flux de données, ordonner la rectification, la limitation ou l'effacement des données…
 
-🔫 Amendes : jusqu'à 10 ou 20 millions d’euros, ou, dans le cas d’une entreprise, de **2% jusqu’à 4% du  chiffre d'affaires annuel mondial**, le montant le plus élevé étant retenu.
+🔫 Amendes : jusqu'à 10 ou 20 millions d’euros, ou, dans le cas d’une entreprise, de **2% jusqu’à 4% du chiffre d'affaires annuel mondial**, le montant le plus élevé étant retenu.
 
 🇪🇺
 Sanction sera **conjointement adoptée entre l’ensemble des autorités concernées**, donc potentiellement pour le territoire de toute l’Union européenne.
