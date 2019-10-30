@@ -11,6 +11,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
 params:
   event: Sciences Po Aix
   slug: dataculture/
@@ -1028,7 +1029,6 @@ Même si le facteur humain reste significatif, [même chez Netflix](https://www.
 - Le poids de Netflix a une influence significative d'un point de vue artistique : souvent le dernier recours des réalisateurs face à des producteurs frileux, mais aussi une prise de risque artistique moindre ?
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">i can&#39;t stop thinking about this quote from Cary Fukanaga&#39;s GQ profile, where he reveals the netflix algorithm caused him to can an episode. it kind of sounds like the data suggested it was too complex and would alienate audiences. <a href="https://t.co/99Sjk6xtYj">pic.twitter.com/99Sjk6xtYj</a></p>&mdash; Cynthia Gothrock (@quantum_scumbag) <a href="https://twitter.com/quantum_scumbag/status/1044440839089340416?ref_src=twsrc%5Etfw">25 septembre 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ---
@@ -1060,11 +1060,12 @@ OpenGLAM : https://openglam.org/
 ---
 ## Au musée
 
-Avec des annonces récentes :
+<blockquote class="twitter-tweet"><p lang="fr" dir="ltr">En terme d&#39;innovations numériques de <a href="https://twitter.com/parismusees?ref_src=twsrc%5Etfw">@parismusees</a>, <a href="https://twitter.com/Mr_Philipe?ref_src=twsrc%5Etfw">@Mr_Philipe</a> annonce pour 2020 la libération de 100 000 oeuvres téléchargeables en ligne, en HD et <a href="https://twitter.com/hashtag/opendata?src=hash&amp;ref_src=twsrc%5Etfw">#opendata</a> ❤️ <a href="https://t.co/P0dZVlCBCR">pic.twitter.com/P0dZVlCBCR</a></p>&mdash; Louvre pour tou·te·s (@louvrepourtous) <a href="https://twitter.com/louvrepourtous/status/1179344594401669120?ref_src=twsrc%5Etfw">October 2, 2019</a></blockquote>
 
-<blockquote class="twitter-tweet"><p lang="fr" dir="ltr">En terme d&#39;innovations numériques de <a href="https://twitter.com/parismusees?ref_src=twsrc%5Etfw">@parismusees</a>, <a href="https://twitter.com/Mr_Philipe?ref_src=twsrc%5Etfw">@Mr_Philipe</a> annonce pour 2020 la libération de 100 000 oeuvres téléchargeables en ligne, en HD et <a href="https://twitter.com/hashtag/opendata?src=hash&amp;ref_src=twsrc%5Etfw">#opendata</a> ❤️ <a href="https://t.co/P0dZVlCBCR">pic.twitter.com/P0dZVlCBCR</a></p>&mdash; Louvre pour tou·te·s (@louvrepourtous) <a href="https://twitter.com/louvrepourtous/status/1179344594401669120?ref_src=twsrc%5Etfw">October 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+---
+## Au musée
 
-<blockquote class="twitter-tweet"><p lang="fr" dir="ltr">📣 La BnF change sa politique d’accès à ses images ! <br>Dans l&#39;esprit de la science ouverte, les chercheurs sont désormais exonérés de toute redevance d’utilisation commerciale dans le cadre de leurs publications 📚 <a href="https://t.co/fmVIh3pCwH">pic.twitter.com/fmVIh3pCwH</a></p>&mdash; Bibliothèque BnF (@laBnF) <a href="https://twitter.com/laBnF/status/1179735524803858432?ref_src=twsrc%5Etfw">October 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="fr" dir="ltr">📣 La BnF change sa politique d’accès à ses images ! <br>Dans l&#39;esprit de la science ouverte, les chercheurs sont désormais exonérés de toute redevance d’utilisation commerciale dans le cadre de leurs publications 📚 <a href="https://t.co/fmVIh3pCwH">pic.twitter.com/fmVIh3pCwH</a></p>&mdash; Bibliothèque BnF (@laBnF) <a href="https://twitter.com/laBnF/status/1179735524803858432?ref_src=twsrc%5Etfw">October 3, 2019</a></blockquote>
 
 ---
 ## Dans la musique
