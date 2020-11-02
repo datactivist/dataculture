@@ -2,7 +2,7 @@
 title: "Culture des données, données de la culture"
 subtitle: ""
 author: "Joël Gombin, Datactivist"
-date: "2019-2020"
+date: "2020-2021"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -12,6 +12,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       beforeInit: "https://platform.twitter.com/widgets.js"
+    anchor_sections: false
 params:
   event: Sciences Po Aix
   slug: dataculture/
@@ -40,50 +41,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 
 ---
-## Qui sommes-nous ?
-
-<BR><BR><BR><BR>
-
-[![](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)
-
-### We .red[open data], we make them .red[useful]
-
----
-## Qui sommes-nous ?
-
-
-![](https://www.dropbox.com/s/kicm8kmqal303yc/equipe.jpg?dl=1)
-
----
-## Qui sommes-nous ?
-
-- Datactivist est un .red[**pure player de l’open data**] créé en 2016, par Samuel Goëta et Joël Gombin.
-
-- Se positionnant sur .red[**toutes les étapes du travail d’ouverture des données**], Datactivist travaille tant avec les producteurs de données qu’avec les réutilisateurs et participe à l’appropriation des données par chacun.
-
-- Nous appliquons nos propres .red[**valeurs**] : nous sommes une coopérative ; nos supports de formation et nos contenus sont librement réutilisables, publiés en licence Creative Commons.
-
-- Une approche issue de la recherche : voir notamment **https://datactivist.coop/these**. 
-
-- Nous animons la communauté [#TeamOpenData](https://teamopendata.org).
-
----
-## Nos activités
-
-- Conseil sur les .red[**stratégies d’ouverture de données**] : nous aidons les organisations dans la conception et la mise en œuvre de leur stratégie d’ouverture de données.
-
-
-- .red[**Accompagnement dans la réutilisation de données ouvertes**] : nous aidons les organisations à utiliser les données au quotidien. 
-
-- .red[**Sensibilisation et formation à la donnée**] : nous formons à la culture générale des données, nous enseignons les grands principes et bonnes pratiques de l'open data et nous introduisons à la data science. 
-
-- .red[**Médiation de données**] : nous organisons des hackathons, des open data camps, des expéditions de données...
-
-???
-
-La médiation de données est aussi fondamentalement une animation de communauté(s). 
-
----
 ## Plan du cours
 
 **Session 1** : culture des données. Data, big data, open data…
@@ -98,12 +55,12 @@ class: inverse, center, middle
 
 ---
 class:middle, center
-## Echauffement :
+## Échauffement :
 ### 5 minutes, 20 données
 
 Vous avez 5 minutes
 
-Vous devez trouver 20 données dans notre environnement immédiat
+Vous devez trouver 20 données dans votre environnement immédiat
 
 Pas de recours aux écrans !
 
@@ -620,6 +577,9 @@ Kitchin (2014) résume les promesses du big data :
 - sémantique / web des données
 - RDF / SPARQL
 - wikidata => http://projetjourdain.org/network/index.html
+
+Un exemple : [le magasin de données de la BNF](https://data.bnf.fr/fr/semanticweb
+)
 ]
 
 .pull-right[
@@ -1060,12 +1020,12 @@ OpenGLAM : https://openglam.org/
 ---
 ## Au musée
 
-<blockquote class="twitter-tweet" data-dnt="true" data-cards="hidden" conversation="none"><p lang="fr" dir="ltr">En terme d&#39;innovations numériques de <a href="https://twitter.com/parismusees?ref_src=twsrc%5Etfw">@parismusees</a>, <a href="https://twitter.com/Mr_Philipe?ref_src=twsrc%5Etfw">@Mr_Philipe</a> annonce pour 2020 la libération de 100 000 oeuvres téléchargeables en ligne, en HD et <a href="https://twitter.com/hashtag/opendata?src=hash&amp;ref_src=twsrc%5Etfw">#opendata</a> ❤️ <a href="https://t.co/P0dZVlCBCR">pic.twitter.com/P0dZVlCBCR</a></p>&mdash; Louvre pour tou·te·s (@louvrepourtous) <a href="https://twitter.com/louvrepourtous/status/1179344594401669120?ref_src=twsrc%5Etfw">October 2, 2019</a></blockquote>
+<blockquote class="twitter-tweet" data-dnt="true" data-cards="hidden" data-conversation="none"><p lang="fr" dir="ltr">En terme d&#39;innovations numériques de <a href="https://twitter.com/parismusees?ref_src=twsrc%5Etfw">@parismusees</a>, <a href="https://twitter.com/Mr_Philipe?ref_src=twsrc%5Etfw">@Mr_Philipe</a> annonce pour 2020 la libération de 100 000 oeuvres téléchargeables en ligne, en HD et <a href="https://twitter.com/hashtag/opendata?src=hash&amp;ref_src=twsrc%5Etfw">#opendata</a> ❤️ <a href="https://t.co/P0dZVlCBCR">pic.twitter.com/P0dZVlCBCR</a></p>&mdash; Louvre pour tou·te·s (@louvrepourtous) <a href="https://twitter.com/louvrepourtous/status/1179344594401669120?ref_src=twsrc%5Etfw">October 2, 2019</a></blockquote>
 
 ---
 ## Au musée
 
-<blockquote class="twitter-tweet" data-dnt="true" data-cards="hidden" conversation="none"><p lang="fr" dir="ltr">📣 La BnF change sa politique d’accès à ses images ! <br>Dans l&#39;esprit de la science ouverte, les chercheurs sont désormais exonérés de toute redevance d’utilisation commerciale dans le cadre de leurs publications 📚 <a href="https://t.co/fmVIh3pCwH">pic.twitter.com/fmVIh3pCwH</a></p>&mdash; Bibliothèque BnF (@laBnF) <a href="https://twitter.com/laBnF/status/1179735524803858432?ref_src=twsrc%5Etfw">October 3, 2019</a></blockquote>
+<blockquote class="twitter-tweet" data-dnt="true" data-cards="hidden" data-conversation="none"><p lang="fr" dir="ltr">📣 La BnF change sa politique d’accès à ses images ! <br>Dans l&#39;esprit de la science ouverte, les chercheurs sont désormais exonérés de toute redevance d’utilisation commerciale dans le cadre de leurs publications 📚 <a href="https://t.co/fmVIh3pCwH">pic.twitter.com/fmVIh3pCwH</a></p>&mdash; Bibliothèque BnF (@laBnF) <a href="https://twitter.com/laBnF/status/1179735524803858432?ref_src=twsrc%5Etfw">October 3, 2019</a></blockquote>
 
 ---
 ## Dans la musique
