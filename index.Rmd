@@ -851,26 +851,35 @@ class: center, middle
 - 2006 : Netflix offre 1M$ de récompense pour améliorer son algorithme de recommandation 
 - 2007 : Netflix lance un service de visionnage de films en streaming (YT lancé en 2005)
 - 2011-2013 : Netflix commence à produire des contenus propres. 1ère série produite : *House of Cards*
-- 2018 : 137 millions de clients dans le monde
+- 2020 : plus de 200 millions d'abonnés dans le monde
 
 ---
 ## Brève histoire de Netflix
 
-Capitalisation de Netflix (7/10/2019) : 119 Mds de $ (en baisse significative, la moitié du maximum historique)
+Valorisation boursière de Netflix (13/11/2020) : 213 Mds de $ (a quasiment doublé en un an)
 
-Walt Disney Co : 234 Mds de $ (après le rachat de la 21st Century Fox pour 71 Mds $)
+Walt Disney Co : 250 Mds de $ (après le rachat de la 21st Century Fox pour 71 Mds $)
 
 
-En 2018, Netflix a dépensé 13 Mds de $ pour acheter des contenus, dont 85 % originaux (~82 films). Environ 17,5 Mds $ prévus en 2019...
+En 2018, Netflix a dépensé 13 Mds de $ pour acheter des contenus, dont 85 % originaux (~ 82 films). Environ 15 Mds $ en 2019 (371 films et séries originaux), et 20 prévus en 2020...
 
-Soit... plus que n'importe quel studio hollywoodien (Warner Bros : 23 films). 
+Soit... plus que n'importe quel studio hollywoodien (Warner Bros : 23 films en 2018). 
+
+---
+
+## Brève histoire de Netflix
+
+.center[[
+![](./img/contenus_netflix.png)
+](https://www.statista.com/statistics/883491/netflix-original-content-titles/)
+]
 
 ---
 
 ## Comment Netflix optimise la qualité du service
 
 .pull-left[
-- l'un des secrets du succès dans la nouvelle économie culturelle : une expérience utilisateur impeccable
+- l'un des secrets du succès dans la nouvelle économie culturelle : .red[**une expérience utilisateur impeccable**]
 - le choix, assez tôt, de se reposer sur AWS plutôt que sur des infrastructures propres
 - Très grande stabilité : pour accroître l'infra, il suffit de payer plus. 
 - Coût marginal plutôt que fixe.
@@ -943,7 +952,7 @@ L'algorithme de recommandation repose, notamment, sur :
 - la popularité des contenus (évaluée de multiples manières)
 - la lecture des vidéos (durée, heure, matériel...)
 - listes d'attente
-- métadonnées (acteurs, r&alisateur, genre...)
+- métadonnées (acteurs, réalisateur, genre...)
 - présentation et interactions avec la présentation
 - données sociales (amis)
 - termes de recherche
@@ -963,7 +972,7 @@ Des tests en permanence (offline et online) !
 ---
 ## Comment Netflix optimise les choix de production
 
-Dans une industrie historiquement influencée par l'intuition, Netflix revendique de faire du "Data-driven Programming". 
+Dans une industrie historiquement influencée par l'intuition, Netflix revendique de faire du ".red[**Data-driven Programming**]". 
 
 => La position de distributeur donne ainsi un avantage concurrentiel unique à Netflix *en tant que producteur*. 
 
@@ -980,7 +989,8 @@ Même si le facteur humain reste significatif, [même chez Netflix](https://www.
 
 - les producteurs et distributeurs historiques veulent concurrencer Netflix sur son terrain (voir [Disney+](https://fr.wikipedia.org/wiki/Disney%2B), [Hulu](https://fr.wikipedia.org/wiki/Hulu_(entreprise) aux USA ou [Salto, le "Netflix à la française"](https://www.lemonde.fr/actualite-medias/article/2019/08/13/l-arme-anti-netflix-de-france-tv-tf1-et-m6-verra-le-jour-debut-2020_5498935_3236.html))... avec le risque pour Netflix de perdre une partie de son catalogue et de son attrait. 
   
-- Certains films produits par Netflix [sortent désormais en salle](http://www.allocine.fr/article/fichearticle_gen_carticle=18676636.html), dans le circuit traditionnel
+- Face à la concurrence accrue, l'ampleur du catalogue devient un élément concurrentiel majeur, et le coût d'acquisition des clients augmente. En 2018, le coût d'acquisition net par client de Netflix était [estimé à 180$](https://innovationtactics.com/customer-acquisition-cost-and-customer-lifetime-value/). Il est essentiel que le *churn* (taux de déperdition) reste bas... d'où l'importance des nouvelles productions !
+  
 
 ---
 ## Comment Netflix change en profondeur l'industrie cinéma et audiovisuelle
