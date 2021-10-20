@@ -2,7 +2,7 @@
 title: "Culture des données, données de la culture"
 subtitle: ""
 author: "Joël Gombin, Datactivist"
-date: "2020-2021"
+date: "2021-2022"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -386,20 +386,20 @@ Des données représentent les aspects d'un phénomène, mais ne sont pas des in
 
 **Métadonnées**
 
-Des données sur les données. Peuvent être descriptives, structurelles ou administratives. Exemple de standard : le [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). 
+Des données sur les données. Peuvent être descriptives, structurelles ou administratives. Exemple de standard : le [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). **Elles sont essentielles pour [les GLAM](https://archivengines.wordpress.com/2011/10/08/metadonnee-descriptive-bibliotheque-archive/), et la découvrabilité de leurs ressources !**
 
 ---
 
 ## Les données crowdsourcées
 
-.pull-left[Des données produites par des citoyens, des communs partagés et gouvernés par leurs producteurs
+Des données produites par des citoyens, des communs partagés et gouvernés par leurs producteurs
 
 
-Exemple : OpenStreetMap, le wiki de la carte]
+Exemple : OpenStreetMap, le wiki de la carte
 
-.pull-right[
-.reduite[![](img/osm.png)]
-]
+
+[.reduite[![](img/osm.png)]](https://www.openstreetmap.org/query?lat=43.52924&lon=5.43568#map=18/43.52904/5.43639)
+  
 
 
 ---
@@ -483,40 +483,6 @@ class: middle, center
 ### Idéalement dans le domaine public sinon dans une licence conforme à l'[Open Definition](www.opendefinition.org) : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)
 
 ---
-
-## Défi 1 : la découvrabilité des données
-
-.pull-left[
-> Data findability is a major challenge. We have data portals and registries, but government agencies under one national government still publish data in different ways and different locations.(…)
-**Data findability is a prerequisite for open data to fulfill its potential and currently most data is very hard to find.** 
-]
-
-.pull-right[
-![](https://index.okfn.org/images/Datagapsclean.jpg)
-
-.footnote[https://index.okfn.org/insights/]
-]
-
----
-class:middle, center
-![](img/deception.gif) 
-
----
-
-## Défi 2 : le problème de la qualité
-
-.pull-left[
->**Government data is usually incomplete, out of date, of low quality, and fragmented.** In most cases, open data catalogues or portals are manually fed as the result of informal data management approaches. **Procedures, timelines, and responsibilities are frequently unclear among government institutions tasked with this work.**
-
-]
-.pull-right[
-![](img/odb.png)
-
-.footnote[http://opendatabarometer.org/4thedition/report/]
-]
-
----
-
 ### Que signifie .red[“Open”] dans un contexte culturel ?
 
 * **L’Open Content** (les contenus ouverts) est la mise à disposition gratuite sur Internet des reproductions numériques des œuvres sous une licence garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
