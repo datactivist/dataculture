@@ -1036,6 +1036,16 @@ Il y a plusieurs champs et traditions. Mais ces dernières années, on emploie b
 
 ---
 
+## L'intelligence artificielle 
+
+.center[
+.reduite[
+![](https://odoo.datactivist.coop/web/image/10028-79b09cd4/S4E3.png)
+]
+]
+
+---
+
 [![](./img/huggingface.png)](https://huggingface.co/tasks)
 
 ---
