@@ -810,7 +810,7 @@ class: center, middle
 ---
 ## Brève histoire de Netflix
 
-- création en 1997-1998, par Marc Randolph et Reed Hastings (déjà devenus millionnaire grâce à de précédentes entreprises)
+- création en 1997-1998, par Marc Randolph et Reed Hastings (déjà devenus millionnaires grâce à de précédentes entreprises)
 - service initial : location de DVD par correspondance avec réservation en ligne
 - modèle d'abonnement mensuel à partir de septembre 1999
 - 2000 : 300k abonnés, Netflix perd de l'argent
@@ -824,15 +824,15 @@ class: center, middle
 ---
 ## Brève histoire de Netflix
 
-Valorisation boursière de Netflix (01/12/2021) : 284 Mds de $ (a doublé depuis le début de la crise covid)
+Valorisation boursière de Netflix (01/12/2021) : 284 Mds de $ (a doublé depuis le début de la crise covid) (165 Mds $ le 10/10/2023)
 
-Walt Disney Co : 263 Mds de $ (après le rachat de la 21st Century Fox pour 71 Mds $)
+Walt Disney Co : 263 Mds de $ (après le rachat de la 21st Century Fox pour 71 Mds $) (155 Mds $ le 10/10/2023)
 
 En 2021, Netflix dépense 17 milliards de $ pour acheter des contenus, dont 38% pour des contenus originaux (371 films et séries en 2019)
 
-Soit... plus que n'importe quel studio hollywoodien (Warner Bros : 23 films en 2018). 
+Soit... plus que n'importe quel studio hollywoodien (Warner Bros : 23 films en 2018). Mais Disney par exemple dépense le double en contenu.
 
-Netflix dépense également 1,8 milliards de $ en R&D en 2020 (budget total du CNRS en 2021 : 3,7 milliards d'€)
+Netflix dépense également 1,8 milliards de $ en R&D en 2020 (budget total du CNRS en 2021 : 3,7 milliards d'€) (mais attention : la définition US de R&D est plus large que celle en France.)
 
 ---
 
@@ -1017,6 +1017,97 @@ https://machinelearningforbigdata.telecom-paris.fr/fr/article/deezer
 ## Dans le théâtre
 
 https://lafrenchtech-aixmarseille.fr/startup/imparato/
+
+---
+class: inverse, center, middle
+
+# Et l'IA dans tout ça ?
+
+---
+## L'intelligence artificielle 
+
+> "L'intelligence artificielle (IA) est un ensemble de théories et de techniques visant à réaliser des machines capables de simuler l'intelligence humaine" (Wikipedia).
+
+C'est vaste !
+
+Il y a plusieurs champs et traditions. Mais ces dernières années, on emploie beaucoup le terme pour désigner des usages du *machine learning* (apprentissage machine) : 
+
+> "Un champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques pour donner aux ordinateurs la capacité d'« apprendre » à partir de données, c'est-à-dire d'améliorer leurs performances à résoudre des tâches sans être explicitement programmés pour chacune" (Wikipedia). 
+
+---
+
+[![](./img/huggingface.png)](https://huggingface.co/tasks)
+
+---
+## L'intelligence artificelle générative (GenAI)
+
+> "L'IA générative est un type de système d'IA capable de générer du texte, des images ou d'autres médias en réponse à des invites (ou prompts en anglais). Les modèles génératifs apprennent les modèles et la structure des données d'entrée, puis génèrent un nouveau contenu similaire aux données d'apprentissage mais avec un certain degré de nouveauté (plutôt que de simplement classer ou prédire les données)". 
+
+---
+.center[
+![](./img/dalle3.png)
+]
+
+---
+
+.center[
+![](./img/dalle3-2.png)
+]
+
+---
+
+## Un impact profond sur les mondes de la culture ?
+
+Des possibilités nombreuses, de la production à la diffusion : 
+
+- **L'IA pour de nouveaux services aux publics** : L'IA peut créer des services basés sur la collecte de données d'usage, offrir une nouvelle médiation à partir des œuvres et faciliter l'éditorialisation des portails de diffusion.
+- **L'IA pour l'enrichissement et l'investigation des corpus** : Elle peut aider au catalogage, à l'indexation automatique, au développement des collections et servir d'outil d'alerte pour la conservation-restauration.
+- **L'IA pour la performance et l'aide à la décision administrative** : Elle peut être utilisée pour la conception d'expositions, la lutte contre la fraude et la circulation illicite des objets d'art, et pour faciliter les processus supports.
+- **L'IA dans le domaine de la création et de l'enseignement artistique** : Elle peut être utilisée pour la création d'images, de sons, de musique, de vidéos, de littérature et même dans l'architecture et les jeux vidéo.
+
+---
+
+## De nouveaux services aux publics ?
+
+Moteurs de recommandations personnalisés ?
+
+Fan fiction assistée par ordinateur ? 
+
+.center[
+.reduite[
+[![](./img/tintin.png)](https://huggingface.co/Pclanglais/TintinIA?text=drawing+of+Tintin+attending+a+class+in+an+institute+of+political+studies)
+]
+]
+
+---
+
+## L'enrichissement et l'investigation des corpus
+
+.center[
+[![](./img/jazz.png)](https://everynoise.com/engenremap-jazz.html)
+]
+
+---
+
+## L'enrichissement et l'investigation des corpus
+
+Pour en savoir plus : 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gs7EvtcEUBE?si=YsM_eC9vWL8_fjUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+## L'IA pour la performance et l'aide à la décision administrative
+
+[![](./img/basegun.png)](https://basegun.fr/)
+
+
+---
+
+## L'IA dans le domaine de la création et de l'enseignement artistique
+
+cf Dall-E3 and co !
+
 
 ---
 class: inverse, center, middle
