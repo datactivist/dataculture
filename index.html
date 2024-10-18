@@ -15,7 +15,7 @@ class: center, middle, inverse, title-slide
 
 # Culture des données, données de la culture
 ### Joël Gombin, Datactivist
-### Sciences Po Aix, 2023-2024
+### Sciences Po Aix, 2025-2025
 
 ---
 
@@ -287,6 +287,7 @@ Non numérique =&gt; texte, image, vidéo, son, musique...
 ]
 
 ---
+
 ## Données structurées
 
 .pull-left[
@@ -526,7 +527,7 @@ class: middle, center
 
 ## Les promesses du big data
 
-Kitchin (2014) résume les promesses du big data : 
+Kitchin (2014) résume les promesses du "big data" (aka "IA") : 
 - **“Governing people”** : dans la continuité de la statistique, améliorer la connaissance de l’administration et prédire les crimes
 
 - **“Managing organisations”** : améliorer le fonctionnement de toutes les composantes de l’organisation par l’exploitation des données
@@ -559,7 +560,7 @@ Un exemple : [le magasin de données de la BNF](https://data.bnf.fr/fr/semanticw
 
 ---
 class: middle
-&lt;iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%0A%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%22.%20%7D%0A%20%20%7B%0A%20%20%20%20SELECT%20DISTINCT%20%3Fitem%20WHERE%20%7B%0A%20%20%20%20%20%20%3Fitem%20p%3AP69%20%3Fstatement0.%0A%20%20%20%20%20%20%3Fstatement0%20%28ps%3AP69%2F%28wdt%3AP279%2a%29%29%20wd%3AQ1139065.%0A%20%20%20%20%7D%0A%20%20%20%20LIMIT%20100%0A%20%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP39%20%3Ffonction.%20%7D%0A%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" &gt;&lt;/iframe&gt;
+&lt;iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3FdateOfBirth%0AWHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%22.%20%7D%0A%20%20%3Fitem%20p%3AP69%20%3Fstatement0.%0A%20%20%3Fstatement0%20(ps%3AP69%2F(wdt%3AP279*))%20wd%3AQ1139065.%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP39%20%3Ffonction.%20%7D%0A%20%20%3Fitem%20wdt%3AP569%20%3FdateOfBirth.%0A%7D%0AORDER%20BY%20DESC(%3FdateOfBirth)%0ALIMIT%20100" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"&gt;&lt;/iframe&gt;
 ---
 
 ## API
